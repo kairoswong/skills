@@ -21,4 +21,10 @@ Thanks for helping improve this collection of skills.
 
 ## Commits
 
-Use clear, present-tense commit messages, e.g. `add latex-review skill`.
+Follow the [Conventional Commits](https://www.conventionalcommits.org) format:
+
+```
+<type>: <short description in present tense>
+```
+
+Common types: `feat` (new skill or capability), `fix`, `docs`, `refactor`, `chore`. Scope the change by name when useful, e.g. `feat: add deep-summary skill`.
