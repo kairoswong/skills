@@ -20,9 +20,10 @@ skills/<skill-name>/
 
 ## 当前包含的 Skills
 
-| Skill | 说明 |
-| --- | --- |
-| （待添加） | 敬请期待 |
+
+| Skill      | 说明     |
+| ------------ | ---------- |
+| [deep-summary](skills/deep-summary/SKILL.md) | 把一段文本总结成一篇有深度、有批判性的文章——重构论点、拆解论证并给出评述，而非要点罗列 |
 
 ## 目录约定
 

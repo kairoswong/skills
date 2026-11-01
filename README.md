@@ -23,7 +23,7 @@ skills/<skill-name>/
 
 | Skill         | Description |
 | --------------- | ------------- |
-| (coming soon) | Stay tuned  |
+| [deep-summary](skills/deep-summary/SKILL.md) | Turn a piece of text into one in-depth, critical article — thesis reconstruction, argument tracing, and commentary, not a bullet digest |
 
 ## Repository Layout
 
