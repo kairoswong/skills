@@ -5,9 +5,10 @@ description: >
   any long document — into one in-depth article that goes beyond surface
   summarization: it reconstructs the core thesis, traces arguments and
   evidence, surfaces hidden assumptions, and adds critical commentary.
-  Use when the user asks to 总结文本、深度总结、把文本写成一篇有深度的文章、
-  深度解读, or says "deep summary", "summarize this into an article/essay",
-  "write an in-depth piece about this text".
+  Use when the user asks for a deep summary, an in-depth summary or reading
+  of a text, or to turn a text into a thoughtful article or essay —
+  including requests phrased as "summarize this deeply", "write an
+  in-depth piece about this text", or equivalent phrasing in any language.
 ---
 
 # Deep Summary
@@ -41,20 +42,28 @@ whether it holds up.
 
 ## Output requirements
 
+- **Voice**: write from the perspective that suits the text's content, as
+  an author engaging directly with the subject; keep meta-commentary about
+  the source artifact out of the body (it belongs in the endnote).
+- **Title**: reflect the article's subject matter, not the file format.
 - **Language**: match the source text's language unless the user requests
   another (Chinese input → Chinese article).
 - **Length**: default 1,500–3,000 characters for Chinese, 800–1,500 words
   for English; the user may set another length.
 - **Form**: Markdown article with a title and flowing prose. Section
   headings are encouraged; lists may support the prose but must never
-  replace it.
+  replace it. Do not prepend a metadata/notes block before the article.
+- **Endnote**: close the article with a notes section carrying
+  the technical apparatus — source specs, transcription corrections,
+  citation format, and a method note. The body stays clean; the endnote is
+  where rigor lives.
 - **Grounding**: every major claim about the text must be traceable to it —
   quote, paraphrase with location, or cite specific figures and data. Do
   not invent content not present in the source; mark inferences and
   judgments as your own.
 - **Delivery**: paste the article in the reply. If the user asks for a
-  file, save it as `<topic>-deep-summary.md` beside the source or in the
-  working directory.
+  file, save it as `<YYYYMMDD>_<genre>.md` beside the source or in the
+  working directory — the date first, then an underscore, then the genre of the article.
 
 ## Depth bar
 

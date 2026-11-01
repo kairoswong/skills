@@ -32,7 +32,14 @@ skills/<skill-name>/
 
 ## 安装与使用
 
-把需要的 skill 文件夹复制或克隆到你的 Agent 的 skills 目录即可。不同工具的 skills 路径不同，以对应工具的文档为准（例如 OpenCode 通常位于 `~/.config/opencode/skills/`）。
+推荐通过 [`skills` CLI](https://skills.sh)（Vercel Labs 出品）安装。它会将 skill 装入 OpenCode、Claude Code、Codex 等 70+ 个 Agent，自动探测本机已安装的 Agent 并放入对应目录：
+
+```bash
+npx skills add <owner>/skills --skill deep-summary --yes
+npx skills update    # 之后拉取最新版本
+```
+
+也可以手动把 skill 文件夹复制到 Agent 的 skills 目录（OpenCode：`~/.config/opencode/skills/`；其他工具路径以其文档为准）。
 
 安装后重启 Agent，即可在对话中通过任务描述自动触发，或直接按名称调用。
 

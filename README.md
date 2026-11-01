@@ -32,7 +32,14 @@ skills/<skill-name>/
 
 ## Installing a Skill
 
-Copy or clone the skill folder you need into your agent's skills directory. The location varies by tool — consult your tool's documentation (for example, OpenCode typically uses `~/.config/opencode/skills/`).
+The recommended way is the [`skills` CLI](https://skills.sh) (by Vercel Labs), which installs skills into OpenCode, Claude Code, Codex, and 70+ other agents — one copy, detected and linked into every installed agent:
+
+```bash
+npx skills add <owner>/skills --skill deep-summary --yes
+npx skills update    # pull the latest versions later
+```
+
+Alternatively, copy the skill folder you need into your agent's skills directory manually (OpenCode: `~/.config/opencode/skills/`; other tools vary — consult their documentation).
 
 Restart your agent after installing. The skill will then be triggered automatically by task descriptions, or can be invoked by name.
 

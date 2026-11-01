@@ -59,6 +59,9 @@ enables), weaving the text's evidence into each stage.
 
 - [ ] A reader who has not seen the source understands both the thesis and
       the argument for it
+- [ ] Voice fits the text's content; meta-commentary stays out of the body
+- [ ] Title reflects the content, not the file format
+- [ ] Technical apparatus lives in the endnote
 - [ ] Every major claim is grounded in a specific passage, figure, or data
       point
 - [ ] At least one non-obvious insight beyond the text's own framing
