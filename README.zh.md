@@ -23,12 +23,12 @@ skills/<skill-name>/
 
 | Skill      | 说明     |
 | ------------ | ---------- |
+| [academic-plotting](skills/academic-plotting/SKILL.md) | 个人论文配图的 matplotlib 风格，附可直接运行的示例 |
 | [deep-summary](skills/deep-summary/SKILL.md) | 把一段文本总结成一篇有深度、有批判性的文章——重构论点、拆解论证并给出评述，而非要点罗列 |
 
 ## 目录约定
 
 - `skills/` — 纳入版本管理的 skills，每个子文件夹一个 skill。
-- 根目录下的其他文件夹（如 `academic-plotting/`、`story2film/`）为本地开发中的 skill，已在 `.gitignore` 中排除，定稿后再移入 `skills/`。
 
 ## 安装与使用
 

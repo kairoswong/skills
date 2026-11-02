@@ -23,12 +23,12 @@ skills/<skill-name>/
 
 | Skill         | Description |
 | --------------- | ------------- |
+| [academic-plotting](skills/academic-plotting/SKILL.md) | Personal matplotlib style for paper and thesis figures, with runnable example recipes |
 | [deep-summary](skills/deep-summary/SKILL.md) | Turn a piece of text into one in-depth, critical article — thesis reconstruction, argument tracing, and commentary, not a bullet digest |
 
 ## Repository Layout
 
 - `skills/` — versioned skills, one subfolder per skill.
-- Other folders at the repository root (e.g. `academic-plotting/`, `story2film/`) are skills under local development; they are excluded via `.gitignore` and will be moved into `skills/` once finalized.
 
 ## Installing a Skill
 

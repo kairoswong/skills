@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "academic-plotkit"
+version = "2.0.0"
+description = "Personal academic plotting style for matplotlib: styles, semantic palettes, statistics, and figure helpers"
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib>=3.5",
+    "numpy>=1.20",
+]
+
+[project.optional-dependencies]
+stats = ["scipy>=1.7"]
+
+[tool.setuptools]
+packages = ["plotkit"]
