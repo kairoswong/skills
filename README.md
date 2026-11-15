@@ -25,6 +25,7 @@ skills/<skill-name>/
 | --------------- | ------------- |
 | [academic-plotting](skills/academic-plotting/SKILL.md) | Personal matplotlib style for paper and thesis figures, with runnable example recipes |
 | [deep-summary](skills/deep-summary/SKILL.md) | Turn a piece of text into one in-depth, critical article — thesis reconstruction, argument tracing, and commentary, not a bullet digest |
+| [photo-reel](skills/photo-reel/SKILL.md) | Render photos + music into a beat-synced vertical photo-reel video with Python/Pillow + ffmpeg |
 
 ## Repository Layout
 

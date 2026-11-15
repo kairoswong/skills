@@ -25,6 +25,7 @@ skills/<skill-name>/
 | ------------ | ---------- |
 | [academic-plotting](skills/academic-plotting/SKILL.md) | 个人论文配图的 matplotlib 风格，附可直接运行的示例 |
 | [deep-summary](skills/deep-summary/SKILL.md) | 把一段文本总结成一篇有深度、有批判性的文章——重构论点、拆解论证并给出评述，而非要点罗列 |
+| [photo-reel](skills/photo-reel/SKILL.md) | 把照片文件夹和音乐渲染成卡点竖屏照片视频（Python/Pillow + ffmpeg） |
 
 ## 目录约定
 

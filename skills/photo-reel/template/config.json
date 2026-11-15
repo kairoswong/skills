@@ -1,0 +1,16 @@
+{
+  "music": "music/music.mp3",
+  "start": 0.0,
+  "duration": 0.0,
+  "hold": 4.9,
+  "xfade": 0.8,
+  "fit": "contain",
+  "frame_w": 960,
+  "frame_h": 1440,
+  "fps": 30,
+  "crf": 18,
+  "preset": "medium",
+  "bpm": 120.0,
+  "shift": -60,
+  "credit": ""
+}
